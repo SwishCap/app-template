@@ -1,9 +1,10 @@
 {
-  "sites": [
-    {
-      "slug": "microscopic-air-tiny",
-      "distDir": "out",
-      "buildCommand": "npm install && npm run build"
+  "site": {
+    "id": "your-site-id",
+    "team": "your-team-name",
+    "platform": "ipfs",
+    "buildCommand": "npm install && npm run build",
+    "publishDirectory": "out",
+    "framework": "nextjs"
     }
-  ]
 }
